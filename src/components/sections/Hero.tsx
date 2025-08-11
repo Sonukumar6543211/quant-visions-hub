@@ -28,11 +28,11 @@ const Hero = () => {
         <div className="space-y-8">
           {/* Main Heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-              Data <span className="bg-gradient-to-r from-primary-glow to-data-teal bg-clip-text text-transparent">Analysis</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+              Hi, I'm <span className="bg-gradient-to-r from-primary-glow to-data-teal bg-clip-text text-transparent">Sonu Kumar Yadav</span>
             </h1>
-            <h2 className="text-3xl md:text-4xl font-semibold text-white/90">
-              Portfolio
+            <h2 className="text-2xl md:text-3xl font-semibold text-white/90">
+              Data Analyst & Business Intelligence Expert
             </h2>
           </div>
 

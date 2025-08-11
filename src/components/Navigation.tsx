@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('#')}
             className="text-xl font-bold text-primary hover:text-primary-glow transition-colors"
           >
-            DataAnalyst
+            Sonu Kumar Yadav
           </button>
 
           {/* Desktop Navigation */}
