@@ -32,7 +32,7 @@ const Hero = () => {
               Hi, I'm <span className="bg-gradient-to-r from-primary-glow to-data-teal bg-clip-text text-transparent">Sonu Kumar Yadav</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-white/90">
-              Data Analyst & Business Intelligence Expert
+              Data Analyst
             </h2>
           </div>
 
