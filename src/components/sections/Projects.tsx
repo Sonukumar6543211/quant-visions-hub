@@ -116,11 +116,19 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4">
-                    <Button size="sm" className="flex-1">
+                    <Button 
+                      size="sm" 
+                      className="flex-1"
+                      onClick={() => window.open('https://github.com/Sonukumar6543211', '_blank')}
+                    >
                       <ExternalLink className="mr-2 h-4 w-4" />
                       View Project
                     </Button>
-                    <Button variant="outline" size="sm">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={() => window.open('https://github.com/Sonukumar6543211', '_blank')}
+                    >
                       <Github className="h-4 w-4" />
                     </Button>
                   </div>
@@ -134,7 +142,12 @@ const Projects = () => {
             <p className="text-lg text-muted-foreground mb-6">
               Interested in seeing more of my work?
             </p>
-            <Button size="lg" variant="outline" className="font-semibold">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="font-semibold"
+              onClick={() => window.open('https://github.com/Sonukumar6543211', '_blank')}
+            >
               <Github className="mr-2 h-5 w-5" />
               View All Projects on GitHub
             </Button>

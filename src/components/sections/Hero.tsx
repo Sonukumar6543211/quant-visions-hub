@@ -63,10 +63,20 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
-            <Button variant="ghost" size="icon" className="text-white/70 hover:text-white hover:scale-110 transition-all duration-300">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="text-white/70 hover:text-white hover:scale-110 transition-all duration-300"
+              onClick={() => window.open('https://github.com/Sonukumar6543211', '_blank')}
+            >
               <Github className="h-6 w-6" />
             </Button>
-            <Button variant="ghost" size="icon" className="text-white/70 hover:text-white hover:scale-110 transition-all duration-300">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="text-white/70 hover:text-white hover:scale-110 transition-all duration-300"
+              onClick={() => window.open('https://www.linkedin.com/in/sonu-yadav-9b33ba223', '_blank')}
+            >
               <Linkedin className="h-6 w-6" />
             </Button>
           </div>

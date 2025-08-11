@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       title: "Email",
-      detail: "sonu.yadav@dataanalyst.com",
-      link: "mailto:sonu.yadav@dataanalyst.com"
+      detail: "sy715149@gmail.com",
+      link: "mailto:sy715149@gmail.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
       title: "Phone",
-      detail: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      detail: "+91 9155223025",
+      link: "tel:+919155223025"
     },
     {
       icon: <MapPin className="h-5 w-5" />,
       title: "Location",
-      detail: "New York, NY",
+      detail: "India",
       link: null
     }
   ];
@@ -30,13 +30,13 @@ const Contact = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: "GitHub",
-      url: "#",
+      url: "https://github.com/Sonukumar6543211",
       color: "hover:text-foreground"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: "LinkedIn",
-      url: "#",
+      url: "https://www.linkedin.com/in/sonu-yadav-9b33ba223",
       color: "hover:text-primary"
     }
   ];
